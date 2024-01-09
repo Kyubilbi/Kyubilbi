@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="fr">
+    <head> 
+        <meta charset="utf-8"> 
+        <title>Site web sur le Tennis de Table</title>
+        <link rel="stylesheet" href="css\css.css">
+        <link rel="stylesheet" href="css/dropbar.css">
+        <link rel="icon" href="img/icon.png">
+        <script type="text/javascript" src="js\javascript.js"></script>
+    </head>
+    
+    <body>
+        <h1>Site web sur le Tennis de Tables</h1>
+        <h2>Ce site web vous expliquera tout ce qu'il faut savoir sur le Tennis de Table.</h2>
+        
+        <ul class="ul_navbar">
+            <li class="dropdown">
+                <a class="dropbtn active" href="index.html">Point historique</a>
+            </li>
+            <li class="dropdown">
+                <a class="dropbtn" href="les_règles.html">Les règles</a>
+            </li>
+            <li class="dropdown">
+                <a class="dropbtn">Le matériel</a>
+                <div class="dropdown-content">
+                    <a href="le_bois.html">Le bois</a>
+                    <a href="les_revêtements.html">Les revêtements</a>
+                    <a href="l'aire_de_jeu.html">L'aire de jeu</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a class="dropbtn">La compétition</a>
+                <div class="dropdown-content">
+                    <a href="Les_différentes_compétitions.html">Les différentes compétitions</a>
+                    <a href="le_niveau_professionel.html">Le niveau professionel</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a class="dropbtn">Mes joueurs favoris</a>
+                <div class="dropdown-content">
+                    <a href="LEBRUN_Felix.html">Lebrun Felix</a>
+                    <a href="LEBRUN_Alexis.html">Lebrun Alexis</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a class="dropbtn">Musique</a>
+                <div class="dropdown-content">
+                    <audio controls preload="auto" autoplay loop> <source src="audio/musique_de_fond.mp3"> </audio>
+                </div>
+            </li>
+            <li class="dropdown">
+                <button class="dropbtn prevButton" onclick="prevPage()">Page précédente</button>
+            </li>
+        </ul>
+        
+        <h3>Point historique</h3>
+
+        <p>Le tennis de table, aussi appelé ping pong, est un sport de raquette opposant 2 joueurs dans le cas d'un match en simple, ou 2 duo dans le cas d'un match en double.
+            Pour plus d'informations sur les règles, cliquez <a href="les règles.html" > ici</a>.</p><br>
+        <p>Ce sport à été inventé en Grande Bretagne, malgré qu'il soit souvent considéré comme d'origine Chinoise.
+            En France, on compte plus de 100 millions de pongistes inscrit à la fédération Française de tennis de Table.
+        </p>
+        <br>
+        <p>
+            Ses règles ont plusieurs fois été revues, mais principalement au niveau du matéirel utilisé.
+            Jusqu'en 2014, les balles de ping pong n'étaient pas faites directement de plastic, mais, de celluloïde.
+            Ce composé est une matière plasique, mais elle fut abandonnée au tennis de table au profit du plastique qui, lui, prend moins bien les effets (rotations de balles) et perd plus de vitesse.
+            Ces dernières possédaient une perte énergétique plus faible, ce qui les rendaient plus difficile à renvoyer.
+        </p>
+        <p>
+            Le tennis de table a aussi connu un banissement, celui de la colle rapide.
+            Depuis 2008, il est interdit d'appliquer de la colle sur ses revêtements (pas côté mousse bien sûr) afin d'augmenter l'adhérence de sa plaque avec la balle.
+            De nombreux joueur se plaignaient de cette pratique car les service réalisés pouvaient être dévastateurs, malgré l'écart de niveau entre les joueurs, et que ce genre de colle est extrêmement nocive pour la planète.
+        </p>
+        <button class="backToTop" onclick="toTop()">△</button>
+    </body>     
+
+</html>

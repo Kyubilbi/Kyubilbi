@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="fr">
+    <head> 
+        <meta charset="utf-8"> 
+        <title>Les différentes compétitions</title>
+        <link rel="stylesheet" href="css\css.css">
+        <link rel="stylesheet" href="css/dropbar.css">
+        <link rel="icon" href="img/icon.png">
+        <script type="text/javascript" src="js\javascript.js"></script>
+    </head>
+
+    <body>
+        <h1>Site web sur le Tennis de Tables</h1>
+        <h2>La compétition</h2>
+        
+        <ul class="ul_navbar">
+            <li class="dropdown">
+                <a class="dropbtn" href="index.html">Point historique</a>
+            </li>
+            <li class="dropdown">
+                <a class="dropbtn" href="les_règles.html">Les règles</a>
+            </li>
+            <li class="dropdown">
+                <a class="dropbtn">Le matériel</a>
+                <div class="dropdown-content">
+                    <a href="le_bois.html">Le bois</a>
+                    <a href="les_revêtements.html">Les revêtements</a>
+                    <a href="l'aire_de_jeu.html">L'aire de jeu</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a class="dropbtn active">La compétition</a>
+                <div class="dropdown-content">
+                    <a href="Les_différentes_compétitions.html">Les différentes compétitions</a>
+                    <a href="le_niveau_professionel.html">Le niveau professionel</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a class="dropbtn">Mes joueurs favoris</a>
+                <div class="dropdown-content">
+                    <a href="LEBRUN_Felix.html">Lebrun Felix</a>
+                    <a href="LEBRUN_Alexis.html">Lebrun Alexis</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a class="dropbtn">Musique</a>
+                <div class="dropdown-content">
+                    <audio controls preload="auto" autoplay loop> <source src="audio/musique_de_fond.mp3"> </audio>
+                </div>
+            </li>
+            <li class="dropdown">
+                <button class="dropbtn prevButton" onclick="prevPage()">Page précédente</button>
+            </li>
+        </ul>
+
+        <h3>Les différentes compétitions</h3>
+
+        <p>
+            Le tennis de table comporte plusieurs compétitions.
+            Néanmoins, elle se différencie plus sur le fond que la forme : elle sont toujours principalement composées de matchs individuels.
+            On distingue 4 grandes compétitions en France :
+        </p>
+        <p>
+            <ul>
+                <li class="list">Le Critérium Fédéral</li>
+                <li class="list">Le championnat par équipe adulte</li>
+                <li class="list">Le championnat par équipe jeune</li>
+                <li class="list">Les finales par classements et catégories</li>
+            </ul>
+        </p>
+        <p>
+            Pour télécharger le calendrier général des compétitions saison 2023-2024, cliquez <a href="dl\calendrier_catt_2023_2024.pdf" download="calendrier_catt_2023_2024.pdf">ici</a>.
+        </p>
+        <hr>
+
+        <h3>Le Critérium Fédéral</h3>
+
+        <p>
+            Le Critérium Fédéral est la compétition avec le plus gros coefficient possible de 1,5.
+            Elle se joue d'abord par poule dont le nombre varie selon le nombre de participants, puis en tableau intégral afin d'avoir un classement pour la totalité des participants.
+            Elle se joue par catégorie et à plusieurs niveau : départemental 1, régional 2, régional 1, national 2, national 1.
+            Dans certaine catégories, les niveau les plus bas sont absents en raison du nombre restreint de joueur.
+            Le joueur qui finit premier peut choisir ou non si il veut monter au niveau supérieur.
+        </p>
+        <hr>
+
+        <h3>Le Championnat par équipe adulte</h3>
+
+        <p>
+            Le championnat par équipe adulte est la deuxième compétition la plus importante avec un coefficient de 1.
+            Elle regroupe des équipes allant jusqu'à 4 joueurs.
+            Chaque région organise cette compétition comme elle le souhaite, mais le classement final est toujours intégral.
+            <br>
+            Dans le cas du Grand-Est, la compétition se déroule sur 7 niveau avant de jouer en national.
+            Le premier est celui de Ge7 (pour Grand Est 7), se jouant en départemental et par équipe de 3.
+            Chaque joueur de l'équipe affronte les 3 joueurs de l'équipe adverse, soit un total de 9 matchs en simple, plus un double dont la composition est choisie par le capitaine de chaque équipe.
+            Chaque victoire rapporte 1 point à l'équipe, soit un total de 10 points à obtenir, avec égalitées possibles.
+            <br>
+            Pour tout les niveau de Ge6 à Ge1, les équipes sont composées de 4 joueurs
+            Chacun n'affronte que 3 joueurs de l'équipe adverse pour un total de 12 simples, plus 2 doubles dont la composition est à nouveau choisie par le capitaine de l'équipe.
+            Chaque victoire rapporte 1 points, soit un total de 14 points à obtenir, avec égalités possibles.
+            <br>
+            Lors d'une journée de championnat jeune, seul 2 équipes s'affrontent au domicile d'une des 2 équipe.
+            Ces rencontres durent généralement plusieurs heures, et sont retranscrites en direct sur la chaine youtube de <a href="https://www.youtube.com/@federationfrancaisedetenni3487/streams" target="_blank">FFTT</a> pour toute les rencontres au niveau professionel Français.
+            Les rencontres au niveau professionel sont automatiquement terminées lorsqu'une équipe obtient 8 points, soit une victoire guarantie par l'une des équipe.
+        </p>
+        <hr>
+
+        <h3>Le Championnat par équipe jeune</h3>
+
+        <p>
+            Le championnat par équipe jeune est fait pour permettre aux nouveaux joueurs de découvrir la compétition, avec le coefficient le plus bas de 0,5.
+            Il se déroule par poule de 4 (sauf en cas d'absence d'une équipe) et sur une seul journée.
+            Les poules sont définies selon l'inscription de l'équipe en jeune débutant ou jeune confirmé.
+            Chaque équipe est composée de 2 joueurs.
+            Premièrement, les joueurs feront chacun un simple, puis un double et à nouveau un simple.
+            Chaque victoire vaut 1 point, soit un total de 5, empêchant donc les égalitées.
+            <br>
+            Les finales de championnat jeune se déroulent de la même manière, mais les poules sont organisées selon les catégories des joueurs et le niveau des joueurs y est plus élevé car des prix sont remis au équipe sur le podium.
+        </p>
+        <hr>
+
+        <h3>Les finales par classements et catégories</h3>
+
+        <p>
+            Les finalles par classement et par catégories sont chacune des tournois se déroulant en tableau intégral.
+            Les participants sont regroupés soit en fonction de leur catégorie (benjamin, junior...), soit en fonction de leur classement (moins de 900, entre 900 et 1200...).
+            La compétition se déroule premièrement à niveau départemental, puis à niveau régional avec les différents finalistes des tournois précédents.
+            Parfois, jusqu'à 4 joueurs d'un même département et catégorie/classement peuvent participer aux finales régionales.
+        </p>
+        <button class="backToTop" onclick="toTop()">△</button>
+    </body>
+</html>
