@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="fr">
+    <head> 
+        <meta charset="utf-8"> 
+        <title>L'aire de jeu</title>
+        <link rel="stylesheet" href="css\css.css">
+        <link rel="stylesheet" href="css/dropbar.css">
+        <link rel="icon" href="img/icon.png">
+        <script type="text/javascript" src="js\javascript.js"></script>
+    </head>
+    
+    <body>
+        <h1>Site web sur le Tennis de Table</h1>
+        <h2>Le matériel</h2>
+
+        <ul class="ul_navbar">
+            <li class="dropdown">
+                <a class="dropbtn" href="index.html">Point historique</a>
+            </li>
+            <li class="dropdown">
+                <a class="dropbtn" href="les_règles.html">Les règles</a>
+            </li>
+            <li class="dropdown">
+                <a class="dropbtn active">Le matériel</a>
+                <div class="dropdown-content">
+                    <a href="le_bois.html">Le bois</a>
+                    <a href="les_revêtements.html">Les revêtements</a>
+                    <a href="l'aire_de_jeu.html">L'aire de jeu</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a class="dropbtn">La compétition</a>
+                <div class="dropdown-content">
+                    <a href="Les_différentes_compétitions.html">Les différentes compétitions</a>
+                    <a href="le_niveau_professionel.html">Le niveau professionel</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a class="dropbtn">Mes joueurs favoris</a>
+                <div class="dropdown-content">
+                    <a href="LEBRUN_Felix.html">Lebrun Felix</a>
+                    <a href="LEBRUN_Alexis.html">Lebrun Alexis</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a class="dropbtn">Musique</a>
+                <div class="dropdown-content">
+                    <audio controls preload="auto" autoplay loop> <source src="audio/musique_de_fond.mp3"> </audio>
+                </div>
+            </li>
+            <li class="dropdown">
+                <button class="dropbtn prevButton" onclick="prevPage()">Page précédente</button>
+            </li>
+        </ul>
+
+        <h3>L'aire de jeu</h3>
+        <p>
+            Au tennis de table, l'aire de jeu est délimitée par des séparations pleines, qui permettent de limiter les sorties de balle.
+            Elle est d'au moins 6 mêtres de large pour une dizaine de long.
+            Dans l'aire de jeu, on trouve une table ou est posé la feuille de match ainsi qu'un marqueur pour compter les points.
+            Derrière la table, l'arbirte est assis sur une chaise, ainsi que deux caisses pour les affaires des joueurs afin qu'elles ne soient pas sur le sol.
+        </p>
+        <img class="center" width="70%" src="img\aire de jeu.jpg" alt="aire de jeu">
+        
+        <h3>La table</h3>
+        <p>
+            Une table de tennis de table possède aussi le logo ittf vu dans la section sur les revêtements.
+            Un côté de la table mesure 147cm de longueur pour 152.5cm de largeur, avec une hauteur de 76cm.
+            Le filet est situé au centre de l'assemblage de 2 moitié de table, avec une hauteur de 15.25cm et une largeur totale de 183cm.
+            Le filet est plus large que la table afin d'empêcher les joueurs d'effectuer trop facilement des roulettes, c'est-à-dire faire rouler la balle sur le côté de table de l'adversaire, l'empêchant de renvoyer la balle avant le deuxième rebond.
+            La table possède un revêtement qui accroche peu, afin de prendre légèrement les effets.
+            C'est surtout utile pour les services ou les joueurs défensifs jouant en latéral, tel que <a href="https://www.youtube.com/@AdamBobrow/featured" target="_blank">Adam Bobrow</a>, mais cela permet aussi d'accélérer encore un peu plus les balles jouée rapidement avec de l'effet.
+        </p>
+        <iframe class="center" width="560" height="315" src="https://www.youtube.com/embed/4JmqqkueAdE?si=cTmfmhKG6KIxMBdB&amp;start=90" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <h3>La tenue:</h3>
+        <p>
+            Au tennis de table, on joue avec un polo conçu pour ce sport.
+            Ils sont donc ample au niveau des épaules, et surtout très légé.
+            La réglemntation comprend aussi la tenue des joueurs :</p>
+        <ul class="list">
+            <li>Tout habit blanc ou orange est interdit en raison de la couleur de la balle.</li>
+            <li>Le short est obligatoire</li>
+        </ul>
+
+        <h3>Pour vous procurrer du matériel, je vous recommande le site de <a href="https://www.wsport.com/catalogue/" target="_blank"> <img width="15%" src="img/logo_wacksport.png" alt="logo wacksport"></a></h3>
+        <button class="backToTop" onclick="toTop()">△</button>
+    </body>
+</html>
