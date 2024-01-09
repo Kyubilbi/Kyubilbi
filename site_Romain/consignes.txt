@@ -1,8 +1,0 @@
-Il devra:
-min 3 pages
-	première page : index.html
-contenir
-	listes(à puce ou numérotée, des points au début de pluseiurs ligne pour lister)
-	des images
-	liens internes et externes (dont au moins une image en lien)
-	vidéo et du son
